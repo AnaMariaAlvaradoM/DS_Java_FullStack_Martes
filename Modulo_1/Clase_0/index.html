@@ -4,35 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tarima · Cartelera cultural</title>
+    <link rel="stylesheet" href="estilos.css" />
+   
   </head>
   <body>
-    <header>
+    <header class="encabezado">
       <h1>Tarima</h1>
       <p>La cartelera cultural de Bogotá</p>
     </header>
 
-    <main>
+    <main class="contenedor">
       <h2>Cartelera de noviembre</h2>
-      <section>
-        <article>
-          <span>Concierto</span>
-          <h3>Noche de Salsa Brava</h3>
-          <p>Sábado 7 de noviembre · 8:00 p. m.</p>
-          <p>Teatro del Parque</p>
-          <p>$ 45.000</p>
-          <button>Reservar</button>
-        </article>
-
-        <article>
-          <span>Stand-up</span>
-          <h3>Risas sin Filtro</h3>
-          <p>Jueves 12 de noviembre · 9:00 p. m.</p>
-          <p>Bodega Cultural del Centro</p>
-          <p>$ 30.000</p>
-          <p>Agotado</p>
-          <button disabled>Reservar</button>
-        </article>
-      </section>
+      <section id="cartelera" class="cartelera"></section>
     </main>
+     <script src="app.js"></script>
   </body>
 </html>
